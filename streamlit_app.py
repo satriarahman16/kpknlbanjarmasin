@@ -14,15 +14,13 @@ background-attachment: local;
 """
 
 load_css()
-
+st.set_page_config(page_title = "KPKNL Banjarmasin")
 st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
 
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('djkn.png'))
 
-st.set_page_config(
-  page_title = "KPKNL Banjarmasin",
-)
+
 
 st.header('KPKNL Banjarmasin')
 
