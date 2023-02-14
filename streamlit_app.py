@@ -19,7 +19,7 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('djkn.png'))
 
-
+st.sidebar.header("Pilih Visualisasi")
 
 st.header('KPKNL Banjarmasin')
 
