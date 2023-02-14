@@ -26,6 +26,7 @@ st.info('Kantor Pelayanan Kekayaan Negara dan Lelang Banjarmasin merupakan kanto
 
 icon_size = 20
 
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st_button('doc', 'https://linktr.ee/wadaimanis', 'Layanan Pengelolaan Kekayaan Negara', icon_size)
 st_button('doc', 'https://youtube.com/codingprofessor', 'Layanan Lelang', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Layanan Penilaian', icon_size)
