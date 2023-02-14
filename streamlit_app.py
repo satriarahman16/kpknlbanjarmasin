@@ -9,9 +9,9 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('djkn.png'))
 
-st.header('Chanin Nantasenamat, Ph.D.')
+st.header('KPKNL Banjarmasin')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Kantor Pelayanan Kekayaan Negara dan Lelang Banjarmasin atau KPKNL Banjarmasin  merupakan kantor vertikal dari Unit Eselon I Direktorat Jenderal Kekayaan Negara (DJKN) yang berada di wilayah kerja Kantor Wilayah DJKN Kalimantan Selatan dan Tengah.')
 
 icon_size = 20
 
