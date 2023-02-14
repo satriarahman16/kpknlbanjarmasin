@@ -11,7 +11,7 @@ col2.image(Image.open('djkn.png'))
 
 st.header('KPKNL Banjarmasin')
 
-st.info('Kantor Pelayanan Kekayaan Negara dan Lelang Banjarmasin atau KPKNL Banjarmasin  merupakan kantor vertikal dari Unit Eselon I Direktorat Jenderal Kekayaan Negara (DJKN) yang berada di wilayah kerja Kantor Wilayah DJKN Kalimantan Selatan dan Tengah.')
+st.info('Kantor Pelayanan Kekayaan Negara dan Lelang Banjarmasin merupakan kantor vertikal dari Unit Eselon I Direktorat Jenderal Kekayaan Negara (DJKN) yang berada di wilayah kerja Kantor Wilayah DJKN Kalimantan Selatan dan Tengah.')
 
 icon_size = 20
 
