@@ -2,6 +2,7 @@ import base64
 import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
+from streamlit_option_menu import option_menu
 
 @st.cache_data
 def get_img_as_base64(file):
@@ -34,10 +35,21 @@ right: 2rem;
 }}
 </style>
 """
+with st.sidebar:
+    selected = option_menu(
+        menu_title="Main Menu",  # required
+        options=["Home", "Projects", "Contact"],  # required
+        
+    )
 
-
-
-
+if selected == "Home":
+    st.title(f"You have selected {selected}")
+if selected == "Projects":
+    st.title(f"You have selected {selected}")
+if selected == "Contact":
+    st.title(f"You have selected {selected}")
+    
+    
 load_css()
 
 
