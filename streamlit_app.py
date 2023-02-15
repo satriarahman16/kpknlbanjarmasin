@@ -12,7 +12,7 @@ st.sidebar.header("Pilih Visualisasi")
 
 st.header('KPKNL Banjarmasin')
 
-st.markdown("<h3 style='text-align: center; color: black;'>'Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas'</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas</h3>", unsafe_allow_html=True)
 
 icon_size = 20
 
@@ -22,4 +22,4 @@ st_button('doc', 'https://youtube.com/codingprofessor', 'Layanan Lelang', icon_s
 st_button('medium', 'https://data-professor.medium.com/', 'Layanan Penilaian', icon_size)
 st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara', icon_size)
 
-st.write('Follow Us')
+st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
