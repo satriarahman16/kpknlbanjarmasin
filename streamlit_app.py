@@ -12,7 +12,7 @@ st.sidebar.header("Pilih Visualisasi")
 
 st.header('KPKNL Banjarmasin')
 
-st.markdown("<h1 style='text-align: center; color: red;'>'Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas'</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>'Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas'</h3>", unsafe_allow_html=True)
 
 icon_size = 20
 
