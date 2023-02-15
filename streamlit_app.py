@@ -25,5 +25,9 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara
 
 st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
+column1, column2, column3, column4 = st.columns(4)
 
-
+column1.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
+column2.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
+column3.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
+column4.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
