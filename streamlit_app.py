@@ -26,7 +26,7 @@ if __name__ == __main__:
         main()
 
 
- st.session_state['answer'] = ''
+ st.session_state['answer'] = ''!
 
  if  st.session_state['answer'] in realans:
         answerStat = "correct"
