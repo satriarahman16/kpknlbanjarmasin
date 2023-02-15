@@ -1,9 +1,6 @@
- 
 import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
-
-
         
 load_css()
 
@@ -24,4 +21,3 @@ st_button('doc', 'https://linktr.ee/wadaimanis', 'Layanan Pengelolaan Kekayaan N
 st_button('doc', 'https://youtube.com/codingprofessor', 'Layanan Lelang', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Layanan Penilaian', icon_size)
 st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara', icon_size)
-
