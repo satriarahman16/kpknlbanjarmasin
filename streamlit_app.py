@@ -18,7 +18,7 @@ img = get_img_as_base64("image.jpg")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-url("i.imgur.com/jLXXa3D.jpg");
+background-image: url("https://i.imgur.com/jLXXa3D.jpg");
 background-size: 110%;
 background-position: top left;
 background-repeat no-repeat;
