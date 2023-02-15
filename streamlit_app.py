@@ -27,7 +27,7 @@ st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", uns
 
 column1, column2, column3, column4 = st.columns(4)
 
-column1.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
-column2.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
-column3.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
-column4.markdown(“[![Title](<Icon/Logo URL>)](<Website URL>)”)
+column1.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
+column2.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
+column3.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
+column4.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
