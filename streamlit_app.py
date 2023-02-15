@@ -24,3 +24,11 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara
 
 if __name__ == __main__:
         main()
+
+        
+ st.session_state['answer'] = ''
+
+ if  st.session_state['answer'] in realans:
+        answerStat = "correct"
+    elif st.session_state['answer'] not in realans:
+        answerStat = "incorrect"
