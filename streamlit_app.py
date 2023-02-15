@@ -26,8 +26,4 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara
 st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
 
-link = '[GitHub](http://github.com)'
-col1.markdown(link, unsafe_allow_html=True)
-
-
 
