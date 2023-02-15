@@ -26,19 +26,8 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara
 st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
 
+link = '[GitHub](http://github.com)'
+col1.markdown(link, unsafe_allow_html=True)
 
 
 
-components.html(
-    """
-        <a href="https://twitter.com/kpknl_bmasin" class="twitter-share-button" 
-        data-text="Check my cool Streamlit Web-App🎈" 
-        data-url="https://streamlit.io"
-        data-show-count="false">
-        data-size="Large" 
-        data-hashtags="streamlit,python"
-        Tweet
-        </a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    """
-)
