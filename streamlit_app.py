@@ -28,13 +28,13 @@ st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", uns
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    button1 = st.button('twitter', 'https://twitter.com/thedataprof/', '', icon_size)
+    st.button('twitter', 'https://twitter.com/thedataprof/', '', icon_size)
 
 with col2:
-    button2 = st.button('instagram', 'https://twitter.com/thedataprof/', '', icon_size)
+    st.button('instagram', 'https://twitter.com/thedataprof/', '', icon_size)
 
 with col3:
-    button3 = st.button('facebook', 'https://twitter.com/thedataprof/', '', icon_size)
+    st.button('facebook', 'https://twitter.com/thedataprof/', '', icon_size)
  
 
 # column1, column2, column3, column4 = st.columns(4)
