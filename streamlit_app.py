@@ -13,12 +13,12 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_img_as_base64("background.jpg")
+img = get_img_as_base64("image.jpg")
 
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("data:image/png;base64,{img}");
+url("i.imgur.com/jLXXa3D.jpg");
 background-size: 110%;
 background-position: top left;
 background-repeat no-repeat;
