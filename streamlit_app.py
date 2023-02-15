@@ -32,11 +32,11 @@ st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_s
 col1_nest,col2_nest,col3_nest = col2.columns(3)
 with col2:
  with col1_nest:
-  st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', ' ', icon_size)
+  st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', icon_size)
  with col2_nest:
-  st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', ' ', icon_size)
+  st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', icon_size)
  with col3_nest:
-  st_button('twitter', 'https://twitter.com/kpknl_bmasin', ' ', icon_size)
+  st_button('twitter', 'https://twitter.com/kpknl_bmasin', icon_size)
   
  
 
