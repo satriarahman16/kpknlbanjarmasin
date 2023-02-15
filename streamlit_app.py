@@ -21,7 +21,7 @@ page_bg_img = f"""
 background-image: url("https://i.imgur.com/jLXXa3D.jpg");
 background-size: 110%;
 background-position: top left;
-background-repeat no-repeat;
+background-repeat: no-repeat;
 background-attachment: local;
 }}
 [data-testid="stSidebar"] > div:first-child {{
