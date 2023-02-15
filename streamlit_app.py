@@ -35,21 +35,8 @@ right: 2rem;
 }}
 </style>
 """
-with st.sidebar:
-    selected = option_menu(
-        menu_title="Main Menu",  # required
-        options=["Home", "Projects", "Contact"],  # required
-        
-    )
 
-if selected == "Home":
-    st.title(f"You have selected {selected}")
-if selected == "Projects":
-    st.title(f"You have selected {selected}")
-if selected == "Contact":
-    st.title(f"You have selected {selected}")
-    
-    
+        
 load_css()
 
 
