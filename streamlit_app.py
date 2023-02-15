@@ -12,7 +12,7 @@ st.sidebar.header("Pilih Visualisasi")
 
 st.header('KPKNL Banjarmasin')
 
-st.info('Kantor Pelayanan Kekayaan Negara dan Lelang Banjarmasin merupakan kantor vertikal dari Unit Eselon I Direktorat Jenderal Kekayaan Negara (DJKN) yang berada di wilayah kerja Kantor Wilayah DJKN Kalimantan Selatan dan Tengah.')
+st.info('Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas')
 
 icon_size = 20
 
