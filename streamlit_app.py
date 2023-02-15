@@ -26,13 +26,13 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara
 st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
 with col1:
-    button1 = st.button('twitter', 'https://twitter.com/thedataprof/', '', icon_size')
+    button1 = st.button('twitter', 'https://twitter.com/thedataprof/', '', icon_size)
 
 with col2:
-    button2 = st.button('instagram', 'https://twitter.com/thedataprof/', '', icon_size')
+    button2 = st.button('instagram', 'https://twitter.com/thedataprof/', '', icon_size)
 
 with col3:
-    button3 = st.button('facebook', 'https://twitter.com/thedataprof/', '', icon_size')
+    button3 = st.button('facebook', 'https://twitter.com/thedataprof/', '', icon_size)
 
 # column1, column2, column3, column4 = st.columns(4)
 
