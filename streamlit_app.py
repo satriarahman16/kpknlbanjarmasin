@@ -31,7 +31,7 @@ st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", uns
 
 components.html(
     """
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
+        <a href="https://twitter.com/kpknl_bmasin" class="twitter-share-button" 
         data-text="Check my cool Streamlit Web-App🎈" 
         data-url="https://streamlit.io"
         data-show-count="false">
