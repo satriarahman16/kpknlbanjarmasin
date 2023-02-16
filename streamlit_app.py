@@ -23,11 +23,11 @@ st_button('doc', 'https://youtube.com/codingprofessor', icon_size, 'Layanan Lela
 st_button('medium', 'https://data-professor.medium.com/',  icon_size, 'Layanan Penilaian')
 st_button('twitter', 'https://twitter.com/thedataprof/', icon_size, 'Layanan Piutang Negara')
 
-st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
+# st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
-st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', '@kpknlbanjarmasin', icon_size)
-st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', 'KPKNL Banjarmasin', icon_size)
-st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_size)
+# st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', '@kpknlbanjarmasin', icon_size)
+# st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', 'KPKNL Banjarmasin', icon_size)
+# st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_size)
  
 col1_nest,col2_nest,col3_nest = col2.columns(3)
 with col2:
