@@ -29,7 +29,7 @@ st_button('doc', 'https://twitter.com/thedataprof/', icon_size, 'Layanan Piutang
 # st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', 'KPKNL Banjarmasin', icon_size)
 # st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_size)
  
-col1_nest,col2_nest,col3_nest = col2.columns(3)
+col1_nest,col2_nest,col3_nest,col4_nest = col2.columns(4)
 with col2:
  with col1_nest:
   st_buttonmed('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', icon_size)
@@ -37,6 +37,8 @@ with col2:
   st_buttonmed('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', icon_size)
  with col3_nest:
   st_buttonmed('twitter', 'https://twitter.com/kpknl_bmasin', icon_size)
+ with col4_nest:
+  st_buttonmed('youtube', 'https://www.youtube.com/@kpknlbanjarmasin/', icon_size)
   
  
 
