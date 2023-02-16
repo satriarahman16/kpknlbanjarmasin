@@ -39,10 +39,7 @@ with col2:
   st_buttonmed('twitter', 'https://twitter.com/kpknl_bmasin', icon_size)
  with col4_nest:
   st_buttonmed('youtube', 'https://www.youtube.com/@kpknlbanjarmasin/', icon_size)
- with col5_nest:
-  st_buttonmed('email', 'kpknlbanjarmasin@kemenkeu.go.id', icon_size)
- with col6_nest:
-  st_buttonmed('web', 'https://www.djkn.kemenkeu.go.id/kpknl-banjarmasin', icon_size)
+
   
  
 
