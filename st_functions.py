@@ -86,4 +86,4 @@ def st_buttonmed(icon, url, iconsize):
             </svg>                
             </a>
         </p>'''
-        return st.markdown(button_code, unsafe_allow_html=True)
+       return st.markdown(button_code, unsafe_allow_html=True)
