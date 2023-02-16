@@ -18,10 +18,10 @@ st.markdown("<h3 style='text-align: center; color: black;'>Wani Barasih, Ikhlah 
 
 icon_size = 20
 st.sidebar.header("Configuration")
-st_button('doc', 'https://linktr.ee/wadaimanis', 'Layanan Pengelolaan Kekayaan Negara', icon_size)
-st_button('doc', 'https://youtube.com/codingprofessor', 'Layanan Lelang', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Layanan Penilaian', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Layanan Piutang Negara', icon_size)
+st_button('doc', 'https://linktr.ee/wadaimanis', icon_size, 'Layanan Pengelolaan Kekayaan Negara')
+st_button('doc', 'https://youtube.com/codingprofessor', icon_size, 'Layanan Lelang' )
+st_button('medium', 'https://data-professor.medium.com/',  icon_size, 'Layanan Penilaian')
+st_button('twitter', 'https://twitter.com/thedataprof/', icon_size, 'Layanan Piutang Negara')
 
 st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
 
