@@ -10,7 +10,9 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('djkn.png'))
 
-st.sidebar.header("Pilih Visualisasi")
+
+st.sidebar.radio("Pilih Visualisasi",["Pengeloaan Kekayaan Negara","Lelang","Penilaian","Piutang Negara"])
+
 
 st.header('KPKNL Banjarmasin')
 
