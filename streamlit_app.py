@@ -51,3 +51,53 @@ with col2:
 # column2.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
 # column3.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
 # column4.markdown(“[![Title](<'instagram.png'>)](<'https://www.instagram.com/kpknlbanjarmasin/'>)”)
+
+
+
+
+import json
+
+with open('kota.geojson') as file_json:
+    data = json.load(file_json)
+
+data["features"] = [x for x in data["features"] if x["properties"]["NAME_1"] == "Kalimantan Selatan"]
+
+import pandas as pd
+df_ok = pd.read_csv("kotakabupaten_kalselok.csv")
+
+
+from dash import Dash, dcc, html, Input, Output
+import plotly.express as px
+
+app = Dash(__name__)
+
+
+app.layout = html.Div([
+    html.H4('Jumlah Penduduk Kota/Kabupaten pada Kalimantan Selatan Berdasarkan Rentang Usia'),
+    html.P("Pilih Rentang Usia:"),
+    dcc.RadioItems(
+        id='candidate', 
+        options=["Usia(0-30)","Usia(31-60)","Usia(>60)"],
+        value="Usia(0-30)",
+        inline=True
+    ),
+    dcc.Graph(id="graph"),
+])
+
+
+@app.callback(
+    Output("graph", "figure"), 
+    Input("candidate", "value"))
+def display_choropleth(candidate):
+    df = df_ok # replace with your own data source
+    geojson = data
+    fig = px.choropleth(
+        df, geojson=geojson, color=candidate,
+        locations="Kota_Kabupaten", featureidkey="properties.NAME_2",
+        projection="mercator", range_color=[0, 6500])
+    fig.update_geos(fitbounds="locations", visible=False)
+    fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+    return fig
+
+
+app.run_server(debug=True)
