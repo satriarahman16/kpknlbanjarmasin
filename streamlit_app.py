@@ -46,17 +46,17 @@ if test == "Home":
 
  
 if test == "Pengeloaan Kekayaan Negara":
- st.sidebar.header("Ini Halaman untuk Pengelolaan Kekayaan Negara")
+ st.subheader("Ini Halaman untuk Pengelolaan Kekayaan Negara")
  
  
 if test == "Lelang":
- st.sidebar.header("Ini Halaman untuk Lelang")
+ st.subheader("Ini Halaman untuk Lelang")
  
 if test == "Penilaian":
- st.sidebar.header("Ini Halaman untuk Penilaian")
+ st.subheader("Ini Halaman untuk Penilaian")
 
 if test == "Piutang Negara":
- st.sidebar.header("Ini Halaman untuk Piutang Negara")
+ st.subheader("Ini Halaman untuk Piutang Negara")
 
 # column1, column2, column3, column4 = st.columns(4)
 
