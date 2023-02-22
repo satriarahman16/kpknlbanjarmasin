@@ -7,43 +7,56 @@ st.set_page_config(page_title='KPKNL Banjarmasin', page_icon='🏢', layout="cen
 load_css()
 
 
-col1, col2, col3 = st.columns(3)
-col2.image(Image.open('djkn.png'))
 
 
-st.sidebar.radio("Pilih Visualisasi",["Home","Pengeloaan Kekayaan Negara","Lelang","Penilaian","Piutang Negara"])
 
+test = st.sidebar.radio("Pilih Visualisasi",["Home","Pengeloaan Kekayaan Negara","Lelang","Penilaian","Piutang Negara"])
 
-st.header('KPKNL Banjarmasin')
+if test == "Home":
+ col1, col2, col3 = st.columns(3)
+ col2.image(Image.open('djkn.png'))
 
-st.markdown("<h3 style='text-align: center; color: black;'>Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas</h3>", unsafe_allow_html=True)
+ st.header('KPKNL Banjarmasin')
 
-icon_size = 20
-# st.sidebar.header("Configuration")
-st_button('doc', 'https://linktr.ee/wadaimanis', icon_size, 'Layanan Pengelolaan Kekayaan Negara')
-st_button('doc', 'https://youtube.com/codingprofessor', icon_size, 'Layanan Lelang' )
-st_button('doc', 'https://data-professor.medium.com/',  icon_size, 'Layanan Penilaian')
-st_button('doc', 'https://twitter.com/thedataprof/', icon_size, 'Layanan Piutang Negara')
+ st.markdown("<h3 style='text-align: center; color: black;'>Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas</h3>", unsafe_allow_html=True)
 
-# st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
+ icon_size = 20
+ # st.sidebar.header("Configuration")
+ st_button('doc', 'https://linktr.ee/wadaimanis', icon_size, 'Layanan Pengelolaan Kekayaan Negara')
+ st_button('doc', 'https://youtube.com/codingprofessor', icon_size, 'Layanan Lelang' )
+ st_button('doc', 'https://data-professor.medium.com/',  icon_size, 'Layanan Penilaian')
+ st_button('doc', 'https://twitter.com/thedataprof/', icon_size, 'Layanan Piutang Negara')
 
-# st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', '@kpknlbanjarmasin', icon_size)
-# st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', 'KPKNL Banjarmasin', icon_size)
-# st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_size)
+ # st.markdown("<h5 style='text-align: center; color: black;'>Ikuti Kami</h5>", unsafe_allow_html=True)
+
+ # st_button('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', '@kpknlbanjarmasin', icon_size)
+ # st_button('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', 'KPKNL Banjarmasin', icon_size)
+ # st_button('twitter', 'https://twitter.com/kpknl_bmasin', '@kpknl_bmasin', icon_size)
+
+ col1_nest,col2_nest,col3_nest,col4_nest = col2.columns(4)
+ with col2:
+  with col1_nest:
+   st_buttonmed('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', icon_size)
+  with col2_nest:
+   st_buttonmed('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', icon_size)
+  with col3_nest:
+   st_buttonmed('twitter', 'https://twitter.com/kpknl_bmasin', icon_size)
+  with col4_nest:
+   st_buttonmed('youtube', 'https://www.youtube.com/@kpknlbanjarmasin/', icon_size)
+
  
-col1_nest,col2_nest,col3_nest,col4_nest = col2.columns(4)
-with col2:
- with col1_nest:
-  st_buttonmed('instagram', 'https://www.instagram.com/kpknlbanjarmasin/', icon_size)
- with col2_nest:
-  st_buttonmed('facebook', 'https://www.facebook.com/kpknl.banjarmasin/', icon_size)
- with col3_nest:
-  st_buttonmed('twitter', 'https://twitter.com/kpknl_bmasin', icon_size)
- with col4_nest:
-  st_buttonmed('youtube', 'https://www.youtube.com/@kpknlbanjarmasin/', icon_size)
-
-  
+if test == "Pengeloaan Kekayaan Negara":
+ st.sidebar.header("Ini Halaman untuk Pengelolaan Kekayaan Negara")
  
+ 
+if test == "Lelang":
+ st.sidebar.header("Ini Halaman untuk Lelang")
+ 
+if test == "Penilaian":
+ st.sidebar.header("Ini Halaman untuk Penilaian")
+
+if test == "Piutang Negara":
+ st.sidebar.header("Ini Halaman untuk Piutang Negara")
 
 # column1, column2, column3, column4 = st.columns(4)
 
