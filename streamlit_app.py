@@ -19,7 +19,7 @@ st.header('KPKNL Banjarmasin')
 st.markdown("<h3 style='text-align: center; color: black;'>Wani Barasih, Ikhlah Bagawi, Integritas Tanpa Batas</h3>", unsafe_allow_html=True)
 
 icon_size = 20
-st.sidebar.header("Configuration")
+# st.sidebar.header("Configuration")
 st_button('doc', 'https://linktr.ee/wadaimanis', icon_size, 'Layanan Pengelolaan Kekayaan Negara')
 st_button('doc', 'https://youtube.com/codingprofessor', icon_size, 'Layanan Lelang' )
 st_button('doc', 'https://data-professor.medium.com/',  icon_size, 'Layanan Penilaian')
